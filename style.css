@@ -1,0 +1,90 @@
+@charset "UTF_8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+}
+
+ul#nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 15px;
+    list-style: none;
+   
+}
+
+header li {
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+    padding: 15px;
+}
+
+header a.nave:hover {
+    background-color: rgba(128, 128, 128, 0.37);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+section#apresenta {
+    background-color: rgb(59, 59, 59);
+    height: 500px;
+    padding: 20px;
+}
+
+section img#imga {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+    left: 60%;
+    top: 30%;
+}
+
+div#nome {
+    position: absolute;
+    top: 45%;
+}
+
+div#nome h1 {
+    font-size: 3em;
+}
+
+div#nome h2 {
+    font-size: 1.09em;
+}
+
+section#apresenta a {
+    position: absolute;
+    top: 65%;
+    left: 20%;
+
+    background-color: rgba(145, 145, 145, 0.568);
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 4px 6px 7px 0px rgba(0, 0, 0, 0.322);
+}
+
+section#apresenta a:hover {
+    background-color: rgba(190, 190, 190, 0.493);
+    transition: .4s;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
